@@ -1,0 +1,25 @@
+No Java, além dos tipos primitivos como 
+int, double, char e boolean, existem 
+as classes Wrapper, que são versões
+orientadas a objetos desses tipos. Elas 
+permitem usar métodos úteis e trabalhar
+com coleções genéricas (como ArrayList),
+onde tipos primitivos não funcionam diretamente.
+
+Abaixo estão alguns métodos
+interessantes para cada tipo Wrapper:
+
+Integer → parseInt(String s): 
+Converte um texto em número inteiro.
+
+Double → parseDouble(String s):
+Converte um texto em número decimal.
+
+Character → isLetter(char ch): 
+Verifica se o caractere é uma letra.
+
+Boolean → parseBoolean(String s): 
+Converte um texto ("true" ou "false") em booleano.
+
+String → toUpperCase() / length():
+Converte para maiúsculas / conta a quantidade de caracteres.
